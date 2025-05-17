@@ -1,0 +1,29 @@
+body {
+    background-color: #fff;
+    color: #000;
+  }
+  .navbar {
+    background-color: #000;
+  }
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+  }
+  .hero {
+    background: linear-gradient(135deg, orange, #000);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .card-title {
+    color: #ff6f00;
+  }
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
