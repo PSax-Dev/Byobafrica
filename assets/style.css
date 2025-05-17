@@ -3,10 +3,16 @@ body {
     color: #000;
   }
   .navbar {
-    background-color: #000;
+    background-color: orange;
+
+  }
+  li{
+    padding: 20px;
   }
   .navbar-brand, .nav-link {
-    color: #fff !important;
+    color: white !important;
+    font-weight: 600;
+    font-size: larger;
   }
   .hero {
     background: linear-gradient(135deg, orange, #000);
@@ -15,7 +21,6 @@ body {
     text-align: center;
   }
   .card img {
-    height: 250px;
     object-fit: cover;
   }
   .card-title {
@@ -26,4 +31,32 @@ body {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+  }
+  .logo{
+    height: 100px;
+    width: 150%;
+    padding: 5px;
+
+  }
+
+/*  .image-link{
+    position: relative;
+  }
+
+  .image-link:hover{
+    .my-tooltip{
+      transition: all ease 1.3s;
+      opacity: 100%;
+    }
+  }
+
+  /*.my-tooltip{
+    background-color: gray;
+    color: white;
+    padding: 2rem;
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    left: 0;
+    opacity: 0;
   }
