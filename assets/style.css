@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff;
     color: #000;
@@ -38,7 +42,24 @@ body {
     padding: 5px;
 
   }
+  .card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
 
+  .floating-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    animation: float 3s ease-in-out infinite;
+    z-index: 1050;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
 /*  .image-link{
     position: relative;
   }
