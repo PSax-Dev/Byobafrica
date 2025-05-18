@@ -18,6 +18,17 @@ body {
     font-weight: 600;
     font-size: larger;
   }
+  .nav-item:hover {
+    border-bottom:gold solid 5px;
+    
+  }
+  .nav-item button{ 
+     border: none;
+    color: white !important; 
+    font-weight: 600;
+    font-size: larger;
+
+  }
   .hero {
     background: linear-gradient(135deg, orange, #000);
     color: white;
