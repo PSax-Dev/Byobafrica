@@ -71,6 +71,37 @@ body {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
   }
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #128C7E;
+}
+
+.whatsapp-float {
+  position: fixed;
+  top: 180px; /* You can change this */
+  right: 20px;
+  background-color: black;
+  color: white;
+  font-size: 1.0rem;
+  z-index:9999;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: bounce 1.5s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
 /*  .image-link{
     position: relative;
   }
