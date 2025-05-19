@@ -91,7 +91,35 @@ body {
   animation: bounce 1.5s infinite;
   transition: transform 0.3s ease-in-out;
 }
-
+.blog-float {
+  position: fixed;
+  top: 180px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 22px;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  animation: bounce 2s infinite;
+}
+.blog-text{
+  position:fixed;
+  top:240px;
+  z-index: 9999;
+  color:black;
+  font-weight: 800;
+  opacity:50%;
+}
+.whatsapp-text{
+   position:fixed;
+   right:20px;
+  top:240px;
+  z-index: 9999;
+  color:black;
+  font-weight: 800;
+}
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
